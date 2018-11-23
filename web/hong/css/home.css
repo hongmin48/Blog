@@ -3,18 +3,48 @@
     margin: auto;
 }
 
+.form-control {
+    border-color: #761c19;
+}
 
+/**
+    下拉列表, !important 表示这边设定的样式的优先级较高
+ */
+.dropdown-menu {
+    min-width: 100% !important;
+}
 
+.hot-query {
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    text-align: left;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 14px;
+    padding: 0;
+    overflow: hidden;
+    height: 20px;
+}
+.hot-query li{
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    line-height: 1.1;
+    padding: 0 20px;
+}
+.hot-query li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
 
-
-
-
-
-
-
-
-
-
+.footer {
+    height: 40px;
+    color: #FFFFFF;
+    line-height: 40px;
+    font-size: 14px;
+    clear: both;
+    background: #000000;
+    text-align: center;
+}
 
 .footer .inbk{
     width: 1200px;
