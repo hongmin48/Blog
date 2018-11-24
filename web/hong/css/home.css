@@ -2,18 +2,15 @@
     width: 80%;
     margin: auto;
 }
-
 .form-control {
     border-color: #761c19;
 }
-
 /**
     下拉列表, !important 表示这边设定的样式的优先级较高
  */
 .dropdown-menu {
     min-width: 100% !important;
 }
-
 .hot-query {
     /*display: flex;*/
     /*justify-content: flex-start;*/
@@ -35,7 +32,6 @@
     border-left: none;
     padding-left: 0;
 }
-
 .footer {
     height: 40px;
     color: #FFFFFF;
@@ -45,7 +41,6 @@
     background: #000000;
     text-align: center;
 }
-
 .footer .inbk{
     width: 1200px;
     margin: auto;
